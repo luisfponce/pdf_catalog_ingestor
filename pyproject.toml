@@ -32,9 +32,9 @@ dependencies = [
 dev = ["build>=1.3,<2", "pytest>=8,<9", "ruff>=0.12,<1"]
 
 [project.urls]
-Homepage = "https://github.com/<github-owner>/youngliving-catalog-ingestor"
-Issues = "https://github.com/<github-owner>/youngliving-catalog-ingestor/issues"
-Repository = "https://github.com/<github-owner>/youngliving-catalog-ingestor"
+Homepage = "https://github.com/github-owner/youngliving-catalog-ingestor"
+Issues = "https://github.com/github-owner/youngliving-catalog-ingestor/issues"
+Repository = "https://github.com/github-owner/youngliving-catalog-ingestor"
 
 [project.scripts]
 yl-catalog = "catalog_ingestor.cli:app"

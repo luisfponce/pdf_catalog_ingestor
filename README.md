@@ -200,8 +200,8 @@ trademarks.
 Repository code is available under the [MIT License](LICENSE), copyright 2026 Luis F. Ponce. The
 license does not apply to user-supplied or other third-party catalog content.
 
-[ci-badge]: https://github.com/%3Cgithub-owner%3E/youngliving-catalog-ingestor/actions/workflows/ci.yml/badge.svg
-[ci-workflow]: https://github.com/%3Cgithub-owner%3E/youngliving-catalog-ingestor/actions/workflows/ci.yml
+[ci-badge]: https://github.com/github-owner/youngliving-catalog-ingestor/actions/workflows/ci.yml/badge.svg
+[ci-workflow]: https://github.com/github-owner/youngliving-catalog-ingestor/actions/workflows/ci.yml
 [docker]: https://www.docker.com/
 [docker-badge]: https://img.shields.io/badge/Docker-ready-2496ED?logo=docker&logoColor=white
 [license-badge]: https://img.shields.io/badge/license-MIT-blue.svg

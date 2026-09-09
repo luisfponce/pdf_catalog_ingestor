@@ -1,0 +1,55 @@
+name: Bug report
+description: Report reproducible incorrect behavior without uploading protected catalog content.
+title: "bug: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: >-
+        Do not attach proprietary PDFs, extracted product images, secrets, or copied catalog text.
+        Reduce the problem to synthetic content whenever possible.
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What happened, and what did you expect instead?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: Provide minimal commands and synthetic input characteristics.
+      placeholder: docker compose run --rm app extract /data/input/synthetic.pdf
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+      placeholder: v0.1.0 or commit SHA
+    validations:
+      required: true
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Environment
+      options:
+        - Docker Compose
+        - Docker
+        - Local editable install
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Sanitized logs
+      description: Remove catalog content, filesystem secrets, and credentials before submitting.
+      render: text
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Content confirmation
+      options:
+        - label: I have not included proprietary source material, generated images, or secrets.
+          required: true
