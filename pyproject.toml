@@ -29,7 +29,7 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-dev = ["build>=1.3,<2", "pytest>=8,<9", "ruff>=0.12,<1"]
+dev = ["build>=1.3,<2", "pytest>=8,<10", "ruff>=0.12,<1"]
 
 [project.urls]
 Homepage = "https://github.com/github-owner/youngliving-catalog-ingestor"
