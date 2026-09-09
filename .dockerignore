@@ -1,0 +1,17 @@
+.git
+.github
+.kilo
+.env
+.env.*
+!.env.example
+.venv
+__pycache__
+.pytest_cache
+.ruff_cache
+*.pyc
+*.pdf
+*.webp
+build
+dist
+data
+tests
