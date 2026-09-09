@@ -1,0 +1,44 @@
+{
+  "source_pdf": "synthetic_catalog.pdf",
+  "products": [
+    {
+      "name": "SAMPLE PRODUCT",
+      "scientific_name": null,
+      "category": "other",
+      "description": "An invented record that demonstrates the canonical output schema.",
+      "ingredients": [
+        "Sample ingredient"
+      ],
+      "usage_text": "Use only as directed in this synthetic example.",
+      "usage_modes": [],
+      "variants": [
+        {
+          "sku": "000001",
+          "size_value": 15.0,
+          "size_unit": "ml",
+          "raw_size": "15 ml"
+        }
+      ],
+      "seasonal": false,
+      "image": null,
+      "source": {
+        "document_name": "synthetic_catalog.pdf",
+        "page": 1,
+        "card_bbox": [
+          40.0,
+          90.0,
+          297.5,
+          265.1
+        ]
+      },
+      "raw_text": "SAMPLE PRODUCT\nSKU TAMANO\n000001 15 ml",
+      "extraction_confidence": 1.0,
+      "warnings": [],
+      "derived_tags": []
+    }
+  ],
+  "extraction_version": "0.1.0",
+  "metadata": {
+    "fixture": "synthetic"
+  }
+}

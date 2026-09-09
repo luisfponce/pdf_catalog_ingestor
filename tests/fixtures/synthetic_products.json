@@ -1,0 +1,75 @@
+[
+  {
+    "name": "CEDAR MIST",
+    "scientific_name": "Arbor ficta",
+    "category": "essential_oil",
+    "description": "An invented botanical sample with a clean, woody aroma.",
+    "ingredients": [],
+    "usage_text": "Use in a diffuser or dilute before applying to skin.",
+    "usage_modes": ["aromatic", "topical", "dilute"],
+    "variants": [
+      {
+        "sku": "000001",
+        "size_value": 15,
+        "size_unit": "ml",
+        "raw_size": "15 ml"
+      }
+    ],
+    "source": {
+      "document_name": "synthetic_catalog.pdf",
+      "page": 1
+    },
+    "raw_text": "CEDAR MIST\nArbor ficta\nSKU TAMANO\n000001 15 ml",
+    "extraction_confidence": 1.0
+  },
+  {
+    "name": "CITRUS GLOW",
+    "category": "essential_oil_blend",
+    "description": "An invented bright aromatic blend for schema demonstrations.",
+    "ingredients": ["Sample peel extract", "Sample leaf extract"],
+    "usage_text": "Use in a diffuser.",
+    "usage_modes": ["aromatic"],
+    "variants": [
+      {
+        "sku": "000002",
+        "size_value": 5,
+        "size_unit": "ml",
+        "raw_size": "5 ml"
+      },
+      {
+        "sku": "000003",
+        "size_value": 15,
+        "size_unit": "ml",
+        "raw_size": "15 ml"
+      }
+    ],
+    "source": {
+      "document_name": "synthetic_catalog.pdf",
+      "page": 1
+    },
+    "raw_text": "CITRUS GLOW\nSKU TAMANO\n000002 5 ml\n000003 15 ml",
+    "extraction_confidence": 1.0
+  },
+  {
+    "name": "BERRY SIP",
+    "category": "plus_flavoring",
+    "description": "An invented flavoring sample for deterministic fixture coverage.",
+    "ingredients": ["Sample berry flavor"],
+    "usage_text": "Add one drop to a beverage recipe.",
+    "usage_modes": ["flavoring"],
+    "variants": [
+      {
+        "sku": "000004",
+        "size_value": 5,
+        "size_unit": "ml",
+        "raw_size": "5 ml"
+      }
+    ],
+    "source": {
+      "document_name": "synthetic_catalog.pdf",
+      "page": 2
+    },
+    "raw_text": "BERRY SIP\nSKU TAMANO\n000004 5 ml",
+    "extraction_confidence": 1.0
+  }
+]
